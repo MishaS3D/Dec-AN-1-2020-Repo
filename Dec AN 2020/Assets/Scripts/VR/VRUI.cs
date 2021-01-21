@@ -35,9 +35,16 @@ public class VRUI : MonoBehaviour
             m_line.enabled = false;
             if (Physics.Raycast(transform.position, transform.forward, out m_hit))
             {
+<<<<<<< HEAD
                 m_hit.transform.SendMessage("OnClickSceneLoad");
+=======
+                m_hit.transform.SendMessage("OnClick");
+>>>>>>> e2c8afdb4c8085446a76c8c1764836bdca153776
             }
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e2c8afdb4c8085446a76c8c1764836bdca153776
